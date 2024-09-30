@@ -1,4 +1,11 @@
-void initLed() {
+/******************************************************************************
+ * Projektname:     Arduino Distance Measurement and Touch Display
+ * Datei:           EmbeddebLab1.c
+ * Ersteller:       Marvin Calmer
+
+ * Beschreibung:    Distance Measurement with an Ultrasonic sensor
+ ******************************************************************************/
+void initLED() {
   pinMode(LED_GREEN, OUTPUT);
   pinMode(LED_YELLOW, OUTPUT); 
   pinMode(LED_RED, OUTPUT); 
